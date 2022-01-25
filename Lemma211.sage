@@ -1,7 +1,7 @@
 def Lemma211(n):
     R.<x> = IntegerModRing(n)[]
     a = 0
-    # Find a coprime to n
+    # Find < a > coprime to < n >
     for i in range(2, n):
         if (gcd(n,i) == 1):
             a = i
